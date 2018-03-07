@@ -13,17 +13,13 @@ showHide = function(selector) {
 }
 
 voronoiMap = function(map, url, initialSelections) {
-  var providers = d3.map();
-  var points = [];
-  var lastSelectedPoint;
+  var pointTypes = d3.map(),
+      points = [],
+      lastSelectedPoint;
 
   var voronoi = d3.geom.voronoi()
       .x(function(d) { return d.x; })
       .y(function(d) { return d.y; });
-
-  var formatProvider = function(data) {
-    return data.provider + " (" + data.status + ")";
-  }
 
   var selectPoint = function() {
     d3.selectAll('.selected').classed('selected', false);
@@ -42,67 +38,46 @@ voronoiMap = function(map, url, initialSelections) {
         .attr('target', '_blank')
   }
 
-  var matchesSelection = function(data, selection) {
-    return selection.provider === data.provider && selection.status == data.status;
-  }
-
-  var matchesASelection = function(data, selections) {
-    for (var i = 0; i < selections.length; i++) {
-      let selection = selections[i];
-      if (matchesSelection(data, selection)) { return true; }
-    }
-    return false;
-  }
-
-  var drawProviderSelection = function() {
+  var drawPointTypeSelection = function() {
     showHide('#selections')
     labels = d3.select('#toggles').selectAll('input')
-      .data(providers.values())
+      .data(pointTypes.values())
       .enter().append("label");
 
     labels.append("input")
       .attr('type', 'checkbox')
       .property('checked', function(d) {
-        return initialSelections === undefined || matchesASelection(d, initialSelections);
+        return initialSelections === undefined || initialSelections.has(d.type)
       })
-      .attr("value", function(d) { return formatProvider(d); })
-      .attr("provider", function(d) { return d.provider; })
-      .attr("status", function(d) { return d.status; })
+      .attr("value", function(d) { return d.type; })
       .on("change", drawWithLoading);
 
     labels.append("span")
       .attr('class', 'key')
-      .style('background-color', function(d) { return (d.status === "current") ? d.color : 'white'; })
-      .style('border-color', function(d) { return d.color; });
+      .style('background-color', function(d) { return '#' + d.color; });
 
     labels.append("span")
-      .text(function(d) { return formatProvider(d); });
+      .text(function(d) { return d.type; });
   }
 
-  var selectedProviders = function() {
-    return d3.selectAll('#toggles input[type=checkbox]')[0]
-      .filter(function(elem) {
-        return elem.checked;
-      })
-      .map(function(elem) {
-        return {provider: getAttribute("provider", elem), status: getAttribute("status", elem)};
-      })
+  var selectedTypes = function() {
+    return d3.selectAll('#toggles input[type=checkbox]')[0].filter(function(elem) {
+      return elem.checked;
+    }).map(function(elem) {
+      return elem.value;
+    })
   }
 
-  var pointsFilteredToSelectedProviders = function() {
-    var currentSelectedProviders = selectedProviders();
+  var pointsFilteredToSelectedTypes = function() {
+    var currentSelectedTypes = d3.set(selectedTypes());
     return points.filter(function(item){
-      return matchesASelection(item, currentSelectedProviders);
+      return currentSelectedTypes.has(item.type);
     });
-  }
-
-  var getAttribute = function(name, elem) {
-    return elem.attributes[name].value;
   }
 
   var drawWithLoading = function(e){
     d3.select('#loading').classed('visible', true);
-    if (e && e.provider == 'viewreset') {
+    if (e && e.type == 'viewreset') {
       d3.select('#overlay').remove();
     }
     setTimeout(function(){
@@ -120,7 +95,7 @@ voronoiMap = function(map, url, initialSelections) {
         existing = d3.set(),
         drawLimit = bounds.pad(0.4);
 
-    filteredPoints = pointsFilteredToSelectedProviders().filter(function(d) {
+    filteredPoints = pointsFilteredToSelectedTypes().filter(function(d) {
       var latlng = new L.LatLng(d.latitude, d.longitude);
 
       if (!drawLimit.contains(latlng)) { return false };
@@ -167,16 +142,8 @@ voronoiMap = function(map, url, initialSelections) {
 
     svgPoints.append("circle")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-      .style('stroke', function(d) { return d.color } )
-      .style('fill', function(d) {
-        let color = d.color;
-        if (d.status !== "current"){
-          color = 'white';
-        }
-        return color;
-      })
-      .style('stroke-width', 4)
-      .attr("r", 10);
+      .style('fill', function(d) { return '#' + d.color } )
+      .attr("r", 2);
   }
 
   var mapLayer = {
@@ -189,13 +156,12 @@ voronoiMap = function(map, url, initialSelections) {
   showHide('#about');
 
   map.on('ready', function() {
-    d3.json(url, function(data) {
-      points = data
-      points.forEach(function(point){
-        let label = formatProvider(point);
-        providers.set(label , {label: label, provider: point.provider, color: point.color, status: point.status})
+    d3.csv(url, function(csv) {
+      points = csv;
+      points.forEach(function(point) {
+        pointTypes.set(point.type, {type: point.type, color: point.color});
       })
-      drawProviderSelection();
+      drawPointTypeSelection();
       map.addLayer(mapLayer);
     })
   });
