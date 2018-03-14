@@ -1,0 +1,162 @@
+[
+  {
+    "latitude": 40.193891,
+    "longitude": -82.715207,
+    "name": "Ohio (us-east-2)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 39.018,
+    "longitude": -77.539,
+    "name": "N. Virginia (us-east-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 39.737966,
+    "longitude": -121.92984,
+    "name": "N. California (us-west-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 45.8399,
+    "longitude": -119.7006,
+    "name": "Oregon (us-west-2)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 35.705491,
+    "longitude": 139.732025,
+    "name": "Tokyo (ap-northeast-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 37.4536,
+    "longitude": 126.7317,
+    "name": "Seoul (ap-northeast-2)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 34.69374,
+    "longitude": 135.50218,
+    "name": "Osaka (ap-northeast-3)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 18.975,
+    "longitude": 72.8258,
+    "name": "Mumbai (ap-south-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 1.2931,
+    "longitude": 103.8558,
+    "name": "Singapore (ap-southeast-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": -33.8615,
+    "longitude": 151.2055,
+    "name": "Sydney (ap-southeast-2)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 45.5,
+    "longitude": -73.5833,
+    "name": "Montréal (ca-central-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 39.9075,
+    "longitude": 116.39723,
+    "name": "Beijing (cn-north-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 36.6,
+    "longitude": 105.32,
+    "name": "Ningxia (cn-northwest-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 50.1167,
+    "longitude": 8.6833,
+    "name": "Frankfurt (eu-central-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 53.3331,
+    "longitude": -6.2489,
+    "name": "Ireland (eu-west-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 51.5092,
+    "longitude": -0.0955,
+    "name": "London (eu-west-2)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 48.841466,
+    "longitude": 2.326663,
+    "name": "Paris (eu-west-3)",
+    "provider": "AWS",
+    "status": "Upcoming",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": -23.5475,
+    "longitude": -46.6361,
+    "name": "São Paulo (sa-east-1)",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 22.26106,
+    "longitude": 114.162204,
+    "name": "Hong Kong",
+    "provider": "AWS",
+    "status": "Upcoming",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 59.335523,
+    "longitude": 18.094658,
+    "name": "Stockholm",
+    "provider": "AWS",
+    "status": "Upcoming",
+    "color": "#efaf27"
+  }
+]

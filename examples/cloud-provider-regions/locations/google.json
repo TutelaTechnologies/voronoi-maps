@@ -1,0 +1,162 @@
+[
+  {
+    "latitude": 43.804133,
+    "longitude": -120.554201,
+    "name": "Oregon (us-west1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 41.878003,
+    "longitude": -93.097702,
+    "name": "Iowa (us-central1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 37.431573,
+    "longitude": -78.656894,
+    "name": "North Virginia (us-east4)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 33.836081,
+    "longitude": -81.163725,
+    "name": "South Carolina  (us-east1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 45.501689,
+    "longitude": -73.567256,
+    "name": "Montréal (northamerica-northeast1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": -23.550520,
+    "longitude": -46.633309,
+    "name": "São Paulo (southamerica-east1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 50.503887,
+    "longitude": 4.469936,
+    "name": "Belgium (europe-west1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 51.507351,
+    "longitude": -0.127758,
+    "name": "London (europe-west2)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 50.110922,
+    "longitude": 8.682127,
+    "name": "Frankfurt (europe-west3)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 52.132633,
+    "longitude": 5.291266,
+    "name": "Eemshaven (europe-west4)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 19.075984,
+    "longitude": 72.877656,
+    "name": "Mumbai (asia-south1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 35.689487,
+    "longitude": 139.691706,
+    "name": "Tokyo (asia-northeast1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 23.697810,
+    "longitude": 120.960515,
+    "name": "Taiwan (asia-east1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 22.267,
+    "longitude": 114.188,
+    "name": "Hong Kong",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 1.352083,
+    "longitude": 103.819836,
+    "name": "Singapore (asia-southeast1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": -33.868820,
+    "longitude": 151.209296,
+    "name": "Sydney (australia-southeast1)",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 34.69374,
+    "longitude": 135.50218,
+    "name": "Osaka",
+    "provider": "Google",
+    "status": "Upcoming",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 22.267,
+    "longitude": 114.188,
+    "name": "Hong Kong",
+    "provider": "Google",
+    "status": "Upcoming",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 34.052234,
+    "longitude": -118.243685,
+    "name": "Los Angeles",
+    "provider": "Google",
+    "status": "Upcoming",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 61.924110,
+    "longitude": 25.748151,
+    "name": "Finland",
+    "provider": "Google",
+    "status": "Upcoming",
+    "color": "#EA4335"
+  }
+]
