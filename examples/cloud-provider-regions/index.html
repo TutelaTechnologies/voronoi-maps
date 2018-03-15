@@ -38,11 +38,19 @@
     map = L.mapbox.map('map', 'zetter.i73ka9hn')
       .fitBounds([[80 , -180], [-80 , 180]]);
 
-    url = '/voronoi-maps/examples/cloud-provider-regions/locations.json';
     initialSelection = [
-      {provider: 'AWS', status: "current"}
+      { provider: 'AWS', status: "Launched" }
     ];
-    voronoiMap(map, url, initialSelection);
+    const locations = ['aws', 'azure', 'google'].map(file => {
+      return fetch(`locations/${file}.json`).then(req => req.json())
+    })
+    Promise.all(locations).then(arrayOfJSON => {
+      const totalJSON = arrayOfJSON.reduce((flat, current) => {
+        return flat.concat(current)
+      }, []) // initial empty array
+
+      voronoiMap(map, totalJSON, initialSelection)
+    })
   </script>
 </body>
 </html>
