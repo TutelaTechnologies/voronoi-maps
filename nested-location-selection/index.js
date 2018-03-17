@@ -1,5 +1,6 @@
+const base = '/voronoi-maps/examples/cloud-provider-regions'
 const locations = ['aws', 'azure', 'google'].map(file => {
-  return fetch(`/locations/${file}.json`)
+  return fetch(`${base}/locations/${file}.json`)
     .then(req => req.json())
 })
 
