@@ -2,7 +2,8 @@
   {
     "latitude": 22.267,
     "longitude": 114.188,
-    "name": "Hong Kong (East Asia)",
+    "location": "Hong Kong",
+    "name": "East Asia",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -10,7 +11,8 @@
   {
     "latitude": 1.283,
     "longitude": 103.833,
-    "name": "Singapore (Southeast Asia)",
+    "location": "Singapore",
+    "name": "Southeast Asia",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -18,7 +20,8 @@
   {
     "latitude": 41.5908,
     "longitude": -93.6208,
-    "name": "Iowa (Central US)",
+    "location": "Iowa",
+    "name": "Central US",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -26,7 +29,8 @@
   {
     "latitude": 37.3719,
     "longitude": -79.8164,
-    "name": "Virginia (East US)",
+    "location": "Virginia",
+    "name": "East US",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -34,7 +38,8 @@
   {
     "latitude": 36.6681,
     "longitude": -78.3889,
-    "name": "Virginia (East US 2)",
+    "location": "Virginia",
+    "name": "East US 2",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -42,7 +47,8 @@
   {
     "latitude": 37.783,
     "longitude": -122.417,
-    "name": "California (West US)",
+    "location": "California",
+    "name": "West US",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -50,7 +56,8 @@
   {
     "latitude": 41.8819,
     "longitude": -87.6278,
-    "name": "Illinois (North Central US)",
+    "location": "Illinois",
+    "name": "North Central US",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -58,7 +65,8 @@
   {
     "latitude": 29.4167,
     "longitude": -98.5,
-    "name": "Texas (South Central US)",
+    "location": "Texas",
+    "name": "South Central US",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -66,7 +74,8 @@
   {
     "latitude": 53.3478,
     "longitude": -6.2597,
-    "name": "Ireland (North Europe)",
+    "location": "Ireland",
+    "name": "North Europe",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -74,7 +83,8 @@
   {
     "latitude": 52.3667,
     "longitude": 4.9,
-    "name": "Netherlands (West Europe)",
+    "location": "Netherlands",
+    "name": "West Europe",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -82,7 +92,8 @@
   {
     "latitude": 34.6939,
     "longitude": 135.5022,
-    "name": "Osaka (Japan West)",
+    "location": "Osaka",
+    "name": "Japan West",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -90,7 +101,8 @@
   {
     "latitude": 35.68,
     "longitude": 139.77,
-    "name": "Tokyo (Japan East)",
+    "location": "Tokyo",
+    "name": "Japan East",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -98,7 +110,8 @@
   {
     "latitude": -23.55,
     "longitude": -46.633,
-    "name": "São Paulo (Brazil South)",
+    "location": "São Paulo",
+    "name": "Brazil South",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -106,7 +119,8 @@
   {
     "latitude": -33.86,
     "longitude": 151.2094,
-    "name": "New South Wales (Australia East)",
+    "location": "New South Wales",
+    "name": "Australia East",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -114,7 +128,8 @@
   {
     "latitude": -37.8136,
     "longitude": 144.9631,
-    "name": "Victoria (Australia Southeast)",
+    "location": "Victoria",
+    "name": "Australia Southeast",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -122,7 +137,8 @@
   {
     "latitude": 12.9822,
     "longitude": 80.1636,
-    "name": "Chennai (South India)",
+    "location": "Chennai",
+    "name": "South India",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -130,7 +146,8 @@
   {
     "latitude": 18.5822,
     "longitude": 73.9197,
-    "name": "Pune (Central India)",
+    "location": "Pune",
+    "name": "Central India",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -138,7 +155,8 @@
   {
     "latitude": 19.088,
     "longitude": 72.868,
-    "name": "Mumbai (West India)",
+    "location": "Mumbai",
+    "name": "West India",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -146,7 +164,8 @@
   {
     "latitude": 43.653,
     "longitude": -79.383,
-    "name": "Toronto (Canada Central)",
+    "location": "Toronto",
+    "name": "Canada Central",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -154,7 +173,8 @@
   {
     "latitude": 46.817,
     "longitude": -71.217,
-    "name": "Québec City (Canada East)",
+    "location": "Québec City",
+    "name": "Canada East",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -162,7 +182,8 @@
   {
     "latitude": 50.941,
     "longitude": -0.799,
-    "name": "London (UK South)",
+    "location": "London",
+    "name": "UK South",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -170,7 +191,8 @@
   {
     "latitude": 53.427,
     "longitude": -3.084,
-    "name": "Cardiff (UK West)",
+    "location": "Cardiff",
+    "name": "UK West",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -178,7 +200,8 @@
   {
     "latitude": 40.89,
     "longitude": -110.234,
-    "name": "Utah (West Central US)",
+    "location": "Utah",
+    "name": "West Central US",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -186,7 +209,8 @@
   {
     "latitude": 47.233,
     "longitude": -119.852,
-    "name": "Washinton (West US 2)",
+    "location": "Washinton",
+    "name": "West US 2",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -194,7 +218,8 @@
   {
     "latitude": 37.5665,
     "longitude": 126.978,
-    "name": "Seoul (Korea Central)",
+    "location": "Seoul",
+    "name": "Korea Central",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -202,7 +227,8 @@
   {
     "latitude": 35.1796,
     "longitude": 129.0756,
-    "name": "Busan (Korea South)",
+    "location": "Busan",
+    "name": "Korea South",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -210,7 +236,8 @@
   {
     "latitude": 50.1166,
     "longitude": 8.6833,
-    "name": "Frankfurt (Germany Central)",
+    "location": "Frankfurt",
+    "name": "Germany Central",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -218,7 +245,8 @@
   {
     "latitude": 52.133,
     "longitude": 11.616,
-    "name": "Magdeburg (Germany Northeast)",
+    "location": "Magdeburg",
+    "name": "Germany Northeast",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -226,7 +254,8 @@
   {
     "latitude": 31.228,
     "longitude": 121.474,
-    "name": "Shanghai (China East)",
+    "location": "Shanghai",
+    "name": "China East",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -234,7 +263,8 @@
   {
     "latitude": 39.916,
     "longitude": 116.383,
-    "name": "Beijing (China North)",
+    "location": "Beijing",
+    "name": "China North",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -242,7 +272,8 @@
   {
     "latitude": -33.890145,
     "longitude": 18.535182,
-    "name": "Cape Town (South Africa West)",
+    "location": "Cape Town",
+    "name": "South Africa West",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -250,7 +281,8 @@
   {
     "latitude": -26.203250,
     "longitude": 28.039166,
-    "name": "Johannesburg (South Africa North)",
+    "location": "Johannesburg",
+    "name": "South Africa North",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -258,7 +290,8 @@
   {
     "latitude": -35.774058,
     "longitude": 149.048302,
-    "name": "Canberra (Australia Central 1)",
+    "location": "Canberra",
+    "name": "Australia Central 1",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -266,7 +299,8 @@
   {
     "latitude": -35.204392,
     "longitude": 149.122006,
-    "name": "Canberra (Australia Central 2)",
+    "location": "Canberra",
+    "name": "Australia Central 2",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -274,7 +308,8 @@
   {
     "latitude": 48.850355,
     "longitude": 2.337102,
-    "name": "Paris (France Central)",
+    "location": "Paris",
+    "name": "France Central",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -282,7 +317,8 @@
   {
     "latitude": 43.292310,
     "longitude": 5.370581,
-    "name": "Marseille (France South)",
+    "location": "Marseille",
+    "name": "France South",
     "provider": "Azure",
     "status": "Launched",
     "color": "#008CDB"
@@ -290,7 +326,8 @@
   {
     "latitude": 51.1642292,
     "longitude": 10.4541194,
-    "name": "Germany (Germany North)",
+    "location": "Germany",
+    "name": "Germany North",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -298,7 +335,8 @@
   {
     "latitude": 51.1642292,
     "longitude": 10.4541194,
-    "name": "Germany (Germany West Central)",
+    "location": "Germany",
+    "name": "Germany West Central",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -306,7 +344,8 @@
   {
     "latitude": 46.800663464,
     "longitude": 8.222665776,
-    "name": "Switzerland (Switzerland West)",
+    "location": "Switzerland",
+    "name": "Switzerland West",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -314,7 +353,8 @@
   {
     "latitude": 46.800663464,
     "longitude": 8.222665776,
-    "name": "Switzerland (Switzerland North)",
+    "location": "Switzerland",
+    "name": "Switzerland North",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -322,7 +362,8 @@
   {
     "latitude": 25.0657,
     "longitude": 55.17128,
-    "name": "Dubai (UAE North)",
+    "location": "Dubai",
+    "name": "UAE North",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"
@@ -330,7 +371,8 @@
   {
     "latitude": 24.46667,
     "longitude": 54.36667,
-    "name": "Abu Dhabi (UAE Central)",
+    "location": "Abu Dhabi",
+    "name": "UAE Central",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"

@@ -3,6 +3,7 @@ See commit history for last update
 Used http://latitude.to/ for looking up lat/lngs
 
 ## Google
+https://cloud.google.com/about/locations/#regions-tab
 https://cloud.google.com/compute/docs/regions-zones/#available
 
 ## Azure
