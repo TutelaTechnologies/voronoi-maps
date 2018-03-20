@@ -1,6 +1,5 @@
-const base = '/voronoi-maps/examples/cloud-provider-regions'
 const locations = ['aws', 'azure', 'google'].map(file => {
-  return fetch(`${base}/locations/${file}.json`)
+  return fetch(`/locations/${file}.json`)
     .then(req => req.json())
 })
 
@@ -96,7 +95,7 @@ function buildNest(json, order) {
 
 function buildNestedCheckboxHTML(nest, parentPath) {
   const group = document.createElement('ul')
-  for (const [name, mapOrSet] of nest.entries()) {
+  for (const [name, mapOrLeaf] of nest.entries()) {
     const [li, label, input] = ['li', 'label', 'input'].map(tag => {
       return document.createElement(tag)
     })
@@ -110,9 +109,15 @@ function buildNestedCheckboxHTML(nest, parentPath) {
     label.appendChild(text) // can't use .innerText, it'll put it at the start
     li.appendChild(label)
 
-    if (mapOrSet instanceof Map) {
+    if (mapOrLeaf instanceof Map) {
+      const count = document.createElement('span')
+      count.innerText = mapOrLeaf.size
+      count.addEventListener('click', event => {
+        li.classList.toggle('collapse')
+      })
+      li.appendChild(count)
       parentPath.push(name)
-      li.appendChild(buildNestedCheckboxHTML(mapOrSet, parentPath))
+      li.appendChild(buildNestedCheckboxHTML(mapOrLeaf, parentPath))
       parentPath.pop()
     }
     group.appendChild(li)
