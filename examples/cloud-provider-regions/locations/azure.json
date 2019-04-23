@@ -217,7 +217,7 @@
   },
   {
     "latitude": 37.5665,
-    "longitude": 126.978,
+    "longitude": 126.9780,
     "location": "Seoul",
     "name": "Korea Central",
     "provider": "Azure",
@@ -270,44 +270,44 @@
     "color": "#008CDB"
   },
   {
-    "latitude": -33.890145,
-    "longitude": 18.535182,
+    "latitude": -34.075691,
+    "longitude": 18.843266,
     "location": "Cape Town",
     "name": "South Africa West",
     "provider": "Azure",
-    "status": "Upcoming",
+    "status": "Launched",
     "color": "#008CDB"
   },
   {
-    "latitude": -26.203250,
-    "longitude": 28.039166,
+    "latitude": -25.731340,
+    "longitude": 28.218370,
     "location": "Johannesburg",
     "name": "South Africa North",
     "provider": "Azure",
-    "status": "Upcoming",
+    "status": "Launched",
     "color": "#008CDB"
   },
   {
-    "latitude": -35.774058,
-    "longitude": 149.048302,
+    "latitude": -35.3075,
+    "longitude": 149.1244,
     "location": "Canberra",
-    "name": "Australia Central 1",
+    "name": "Australia Central",
     "provider": "Azure",
-    "status": "Upcoming",
+    "status": "Launched",
     "color": "#008CDB"
   },
   {
-    "latitude": -35.204392,
-    "longitude": 149.122006,
+    "latitude": -35.3075,
+    "longitude": 149.1244,
     "location": "Canberra",
     "name": "Australia Central 2",
     "provider": "Azure",
-    "status": "Upcoming",
+    "status": "Launched",
     "color": "#008CDB"
   },
   {
-    "latitude": 48.850355,
-    "longitude": 2.337102,
+    "latitude": 46.3772,
+    "longitude": 2.3730,
     "location": "Paris",
     "name": "France Central",
     "provider": "Azure",
@@ -315,8 +315,8 @@
     "color": "#008CDB"
   },
   {
-    "latitude": 43.292310,
-    "longitude": 5.370581,
+    "latitude": 43.8345,
+    "longitude": 2.1972,
     "location": "Marseille",
     "name": "France South",
     "provider": "Azure",
@@ -324,8 +324,8 @@
     "color": "#008CDB"
   },
   {
-    "latitude": 51.1642292,
-    "longitude": 10.4541194,
+    "latitude": 53.58467,
+    "longitude": 10.62208,
     "location": "Germany",
     "name": "Germany North",
     "provider": "Azure",
@@ -333,8 +333,8 @@
     "color": "#008CDB"
   },
   {
-    "latitude": 51.1642292,
-    "longitude": 10.4541194,
+    "latitude": 50.33704,
+    "longitude": 6.97461,
     "location": "Germany",
     "name": "Germany West Central",
     "provider": "Azure",
@@ -342,8 +342,8 @@
     "color": "#008CDB"
   },
   {
-    "latitude": 46.800663464,
-    "longitude": 8.222665776,
+    "latitude": 46.2018,
+    "longitude": 6.151422,
     "location": "Switzerland",
     "name": "Switzerland West",
     "provider": "Azure",
@@ -351,8 +351,8 @@
     "color": "#008CDB"
   },
   {
-    "latitude": 46.800663464,
-    "longitude": 8.222665776,
+    "latitude": 47.37204,
+    "longitude": 8.54094,
     "location": "Switzerland",
     "name": "Switzerland North",
     "provider": "Azure",
@@ -373,6 +373,24 @@
     "longitude": 54.36667,
     "location": "Abu Dhabi",
     "name": "UAE Central",
+    "provider": "Azure",
+    "status": "Upcoming",
+    "color": "#008CDB"
+  },
+  {
+    "latitude": 59.91662,
+    "longitude": 10.98205232040613,
+    "location": "Skårer",
+    "name": "Norway East",
+    "provider": "Azure",
+    "status": "Upcoming",
+    "color": "#008CDB"
+  },
+  {
+    "latitude": 60.354271,
+    "longitude": 5.444942,
+    "location": "Haukeland",
+    "name": "Norway West",
     "provider": "Azure",
     "status": "Upcoming",
     "color": "#008CDB"

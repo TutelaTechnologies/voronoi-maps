@@ -120,7 +120,7 @@
     "latitude": 22.267,
     "longitude": 114.188,
     "location": "Hong Kong",
-    "name": "?",
+    "name": "asia-east2",
     "provider": "Google",
     "status": "Launched",
     "color": "#EA4335"
@@ -147,33 +147,60 @@
     "latitude": 34.69374,
     "longitude": 135.50218,
     "location": "Osaka",
-    "name": "?",
+    "name": "asia-northeast2",
     "provider": "Google",
-    "status": "Upcoming",
-    "color": "#EA4335"
-  },
-  {
-    "latitude": 22.267,
-    "longitude": 114.188,
-    "location": "Hong Kong",
-    "name": "?",
-    "provider": "Google",
-    "status": "Upcoming",
+    "status": "Launched",
     "color": "#EA4335"
   },
   {
     "latitude": 34.052234,
     "longitude": -118.243685,
     "location": "Los Angeles",
+    "name": "us-west2",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 61.924110,
+    "longitude": 25.748151,
+    "location": "Hamina",
+    "name": "europe-north1",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 47.376943,
+    "longitude": 8.541406,
+    "location": "Zürich",
+    "name": "europe-west6",
+    "provider": "Google",
+    "status": "Launched",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": 37.5666791,
+    "longitude": 126.9782914,
+    "location": "Seoul",
     "name": "?",
     "provider": "Google",
     "status": "Upcoming",
     "color": "#EA4335"
   },
   {
-    "latitude": 61.924110,
-    "longitude": 25.748151,
-    "location": "Finland",
+    "latitude": 40.7670126,
+    "longitude": -111.8904308,
+    "location": "Salt Lake City",
+    "name": "?",
+    "provider": "Google",
+    "status": "Upcoming",
+    "color": "#EA4335"
+  },
+  {
+    "latitude": -6.1753942,
+    "longitude": 106.827183,
+    "location": "Jakarta",
     "name": "?",
     "provider": "Google",
     "status": "Upcoming",

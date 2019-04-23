@@ -149,7 +149,7 @@
     "location": "Paris",
     "name": "eu-west-3",
     "provider": "AWS",
-    "status": "Upcoming",
+    "status": "Launched",
     "color": "#efaf27"
   },
   {
@@ -162,6 +162,33 @@
     "color": "#efaf27"
   },
   {
+    "latitude": 59.335523,
+    "longitude": 18.094658,
+    "location": "Stockholm",
+    "name": "eu-north-1",
+    "provider": "AWS",
+    "status": "Launched",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": 26.1551249,
+    "longitude": 50.5344606,
+    "location": "Bahrain",
+    "name": "?",
+    "provider": "AWS",
+    "status": "Upcoming",
+    "color": "#efaf27"
+  },
+  {
+    "latitude": -33.928992,
+    "longitude": 18.417396,
+    "location": "Cape Town",
+    "name": "?",
+    "provider": "AWS",
+    "status": "Upcoming",
+    "color": "#efaf27"
+  },
+  {
     "latitude": 22.26106,
     "longitude": 114.162204,
     "location": "Hong Kong",
@@ -171,12 +198,21 @@
     "color": "#efaf27"
   },
   {
-    "latitude": 59.335523,
-    "longitude": 18.094658,
-    "location": "Stockholm",
+    "latitude": -6.1753942,
+    "longitude": 106.827183,
+    "location": "Jakarta",
     "name": "?",
     "provider": "AWS",
     "status": "Upcoming",
     "color": "#efaf27"
-  }
+  },
+  {
+    "latitude": 45.4667971,
+    "longitude": 9.1904984,
+    "location": "Milan",
+    "name": "?",
+    "provider": "AWS",
+    "status": "Upcoming",
+    "color": "#efaf27"
+  } 
 ]
